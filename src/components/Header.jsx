@@ -1,5 +1,8 @@
 export default function Header() {
     return (
-        <h2>Header</h2>
+        <div>
+            <img src="/images/MayaIlieva_photo.png" alt="Maya Ilieva's photo" />
+            <h1>MAYA ILIEVA</h1>
+        </div>
     )
 }
