@@ -1,6 +1,8 @@
+import "./Header.css";
+
 export default function Header() {
     return (
-        <div>
+        <div className="header-container">
             <img src="/images/MayaIlieva_photo.png" alt="Maya Ilieva's photo" />
             <h1>MAYA ILIEVA</h1>
         </div>

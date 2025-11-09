@@ -7,15 +7,17 @@
 
 .contacts {
     display: flex;
-    flex-direction: column;
-    gap: 15px; /* Spacing between contact items */
+    flex-direction: row;
+    gap: 15px;
+    /* background-color: #f9f9f9; */
+    background-color: #c1def0;
+    border-radius: 10px;
 }
 
-/* Style for each individual contact link */
 .contacts a {
     display: flex;
     align-items: center;
-    gap: 15px; /* Spacing between icon and text */
+    gap: 15px;
     text-decoration: none;
     color: #555;
     font-size: 1rem;
@@ -27,45 +29,37 @@
 }
 
 .contacts a:hover {
-    background-color: #eaf4ff; /* Light blue background on hover */
+    background-color: #eaf4ff;
     color: #4a90e2;
     transform: translateY(-2px);
     border-color: #cce0ff;
 }
 
-/* Style for the icons (FaPhoneSquareAlt, MdLocationCity, etc.) */
 .contacts a svg {
-    font-size: 1.3rem; /* Slightly larger icon size */
+    font-size: 1.3rem;
     flex-shrink: 0;
-    /* Custom colors for icons for better differentiation */
 }
 
-/* Phone Icon Styling */
 .contacts a:nth-child(1) svg {
-    color: #2ecc71; /* Green */
+    color: #2ecc71;
 }
 
-/* Location Icon Styling */
 .contacts a:nth-child(2) svg {
-    color: #f39c12; /* Orange/Yellow */
+    color: #f39c12;
 }
 
-/* Email Icon Styling */
 .contacts a:nth-child(3) svg {
-    color: #e74c3c; /* Red */
+    color: #e74c3c;
 }
 
-/* GitHub Icon Styling */
 .contacts a:nth-child(4) svg {
-    color: #333; /* Dark Gray/Black */
+    color: #333;
 }
 
-/* LinkedIn Icon Styling */
 .contacts a:nth-child(5) svg {
-    color: #0077b5; /* LinkedIn Blue */
+    color: #0077b5;
 }
 
-/* Mobile Responsiveness: Stack links nicely on small screens, which is already handled by flex-direction: column; */
 @media (max-width: 600px) {
     .resume-container {
         margin: 10px;
