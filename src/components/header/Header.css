@@ -1,9 +1,11 @@
 .header-container {
     display: flex;
     flex-direction: row;
-    align-items: space-around;
-    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
     background-color: #f5f5f5;
+    border-radius: 10px;
 }
 
 .header-container img {
