@@ -1,0 +1,15 @@
+.message {
+    font-size: 1em;
+    margin: 20px;
+    color: #333;
+    text-align: left;
+}
+.message strong {
+    color: #007acc;
+}
+.message em {
+    color: #ff6600;
+}
+.message p {
+    margin-bottom: 10px;
+}
