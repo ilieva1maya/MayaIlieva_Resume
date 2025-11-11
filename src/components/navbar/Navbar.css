@@ -9,6 +9,7 @@
     flex-direction: row;
     background-color: #d1e9f7;
     border-radius: 10px;
+    gap: 10px;
 }
 .contacts a {
     display: flex;
@@ -16,7 +17,7 @@
     gap: 8px;
     text-decoration: none;
     color: #555;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     padding: 10px 15px;
     border-radius: 8px;
