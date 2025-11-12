@@ -5,8 +5,7 @@ export default function Welcome() {
     <div className="message">
       <h4>Welcome to my online resume!</h4>
       <p>
-        Please take a look around to learn more about my skills, experience, and
-        projects.
+        Please take a look around to learn more about my <a href="#skills">skills</a>, <a href="#experience">experience</a> and <a href="#education">education</a>.
       </p>
       <p>
         I am <strong>motivated</strong> and open-minded developer with a strong

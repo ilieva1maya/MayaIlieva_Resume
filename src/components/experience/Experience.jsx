@@ -2,7 +2,7 @@ import "./Experience.css";
 
 export default function Experience() {
     return (
-        <section class="experience">
+        <section id="experience" class="experience">
             <h2>Experience</h2>
 
             <article class="experience-item">

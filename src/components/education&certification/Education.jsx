@@ -5,7 +5,7 @@ export default function Education() {
         <section class="education">
             <h2>Education & Certification</h2>
 
-            <div class="education-content">
+            <div id="education" class="education-content">
                 <article class="education-item">
                     <h3>Education</h3>
                     <h4>Front-end Specialization Program with Angular | EPAM Systems</h4>
