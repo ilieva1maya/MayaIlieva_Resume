@@ -5,6 +5,7 @@ import Welcome from './components/welcome/Welcome';
 import Footer from './components/footer/Footer'; 
 import Navbar from './components/navbar/Navbar';
 import Skills from './components/skills/Skills';
+import Experience from './components/experience/Experience';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Welcome/>
       <Skills/>
+      <Experience/>
       <Footer/>
     </>
   )
