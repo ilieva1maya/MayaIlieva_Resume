@@ -1,0 +1,105 @@
+.hobbies {
+  background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+  padding: 36px 28px;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.04);
+  margin-top: 15px;
+  text-align: center;
+  color: #213547;
+}
+
+.hobbies h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #16324a;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #a9d2ff;
+}
+
+.hobby-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 22px auto 0;
+  max-width: 980px;
+  align-items: stretch;
+}
+
+.hobby-card {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.95) 100%);
+  box-shadow: 0 4px 12px rgba(19, 45, 76, 0.04);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  min-height: 120px;
+}
+
+.hobby-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(19, 45, 76, 0.08);
+}
+
+.icon-wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  box-shadow: 0 6px 14px rgba(13, 34, 64, 0.06);
+}
+
+.icon-wrap svg {
+  width: 28px;
+  height: 28px;
+  color: #fff;
+}
+
+.icon-wrap.cooking    { background: linear-gradient(135deg, #ffb86b, #ff8a4b); }
+.icon-wrap.puzzles    { background: linear-gradient(135deg, #7ee3b8, #2ecc71); }
+.icon-wrap.reading    { background: linear-gradient(135deg, #caa0ff, #9b59b6); }
+.icon-wrap.hiking     { background: linear-gradient(135deg, #7fd6ff, #1fb6d1); }
+
+.hobby-card p {
+  margin: 0;
+  text-align: left;
+  color: #2f3f4a;
+  line-height: 1.4;
+  font-size: 0.96rem;
+}
+
+.hobby-card p strong {
+  font-weight: 600;
+  color: #16324a;
+}
+
+@media (max-width: 620px) {
+  .hobby-card {
+    gap: 12px;
+    padding: 14px;
+    min-height: unset;
+  }
+
+  .icon-wrap {
+    width: 52px;
+    height: 52px;
+  }
+
+  .icon-wrap svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hobby-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,9 +1,15 @@
 .message {
-    font-size: 1em;
-    margin: 20px;
-    color: #333;
-    text-align: left;
+  background-color: #ffffff;
+  font-size: 1em;
+  padding: 25px 30px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  color: #333;
+  line-height: 1.7;
 }
+
 .message strong {
     color: #007acc;
 }

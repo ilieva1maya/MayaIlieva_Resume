@@ -3,7 +3,7 @@
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  margin-top: 25px;
+  margin-top: 15px;
   color: #333;
   line-height: 1.6;
   transition: box-shadow 0.3s;
@@ -42,7 +42,6 @@
   gap: 10px 15px;
 }
 
-/* Skill item cards */
 .technical-skills li,
 .soft-skills li {
   background-color: #f7faff;

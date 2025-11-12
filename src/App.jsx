@@ -7,6 +7,7 @@ import Navbar from './components/navbar/Navbar';
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
 import Education from './components/education&certification/Education';
+import Hobbies from './components/hobbies/Hobbies';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Experience/>
       <Education/>
+      <Hobbies/>
       <Footer/>
     </>
   )
