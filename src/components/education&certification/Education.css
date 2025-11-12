@@ -1,0 +1,114 @@
+.education {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* Centered main title */
+.education h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #4a90e2;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* Two-column grid centered horizontally */
+.education-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Each column */
+.education-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Subtle differentiation between columns */
+.education-item:nth-child(1) {
+  background-color: #f9fbff; /* light blue tint */
+  border-left: 4px solid #a0c4ff;
+  /* border-left: 4px solid #4a90e2; */
+}
+
+.education-item:nth-child(2) {
+  background-color: #fefefe;
+  border-left: 4px solid #a0c4ff;
+}
+
+/* Hover lift effect */
+.education-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
+}
+
+/* Section subtitles */
+.education-item h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #4a90e2;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 5px;
+}
+
+/* Each line */
+.education-item h4 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #444;
+  line-height: 1.6;
+  margin-left: 0;
+  transition: color 0.2s;
+}
+
+.education-item h4:hover {
+  color: #2c3e50;
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+  .education {
+    padding: 25px 20px;
+  }
+
+  .education h2 {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+  }
+
+  .education-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .education-item {
+    padding: 20px;
+  }
+
+  .education-item h3 {
+    font-size: 1.05rem;
+  }
+
+  .education-item h4 {
+    font-size: 0.9rem;
+  }
+}

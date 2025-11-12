@@ -18,7 +18,6 @@
   padding-bottom: 5px;
 }
 
-/* Each main experience block */
 .experience-item {
   margin-bottom: 35px;
 }
@@ -30,7 +29,6 @@
   margin-bottom: 10px;
 }
 
-/* Each program (subsection) */
 .program {
   margin-bottom: 20px;
 }
@@ -43,7 +41,6 @@
   margin-top: 10px;
 }
 
-/* Fully left-aligned "document-style" list */
 .program ul {
   list-style: none;
   margin: 0;
@@ -63,18 +60,11 @@
   font-weight: bold;
 }
 
-/* Hover effect (optional subtle emphasis) */
-.program li:hover {
-  color: #2c3e50;
-}
-
-/* Divider between different experience sections */
 .experience-item:not(:last-child) {
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 25px;
 }
 
-/* Responsive tweaks */
 @media (max-width: 800px) {
   .experience {
     padding: 20px;

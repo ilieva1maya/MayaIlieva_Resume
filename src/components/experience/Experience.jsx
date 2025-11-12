@@ -6,10 +6,10 @@ export default function Experience() {
             <h2>Experience</h2>
 
             <article class="experience-item">
-                <h3>Student | EPAM Systems | January 2025 – Present</h3>
+                <h3>Student | EPAM Systems | January 2025 - present</h3>
 
                 <div class="program">
-                    <h4>Front-end Specialization Program with Angular | June 2025 – August 2025</h4>
+                    <h4>Front-end Specialization Program with Angular | June 2025 - August 2025</h4>
                     <ul>
                         <li>Developed a web application with routing and CRUD operations using Angular, TypeScript, HTML, and CSS.</li>
                         <li>Participated in code reviews and team meetings to enhance coding skills and learn best practices.</li>
@@ -18,7 +18,7 @@ export default function Experience() {
                 </div>
 
                 <div class="program">
-                    <h4>Front-End Fundamentals with JavaScript | January 2025 – May 2025</h4>
+                    <h4>Front-End Fundamentals with JavaScript | January 2025 - May 2025</h4>
                     <ul>
                         <li>Learned the fundamentals of front-end development including HTML, CSS, and JavaScript.</li>
                         <li>Built interactive web pages using DOM manipulation and event handling.</li>
@@ -28,10 +28,10 @@ export default function Experience() {
             </article>
 
             <article class="experience-item">
-                <h3>Student | SoftUni | January 2022 – August 2025</h3>
+                <h3>Student | SoftUni | January 2022 - August 2025</h3>
 
                 <div class="program">
-                    <h4>Angular | August 2024 – December 2024</h4>
+                    <h4>Angular | August 2024 - December 2024</h4>
                     <ul>
                         <li>Learned the fundamentals of Angular including components, services, and dependency injection.</li>
                         <li>Developed single-page applications (SPAs) using Angular and integrated them with RESTful APIs.</li>
@@ -42,7 +42,7 @@ export default function Experience() {
                 </div>
 
                 <div class="program">
-                    <h4>React | March 2024 – July 2024</h4>
+                    <h4>React | March 2024 - July 2024</h4>
                     <ul>
                         <li>Learned the fundamentals of React including components, state management, and hooks.</li>
                         <li>Developed SPAs with dynamic React components with full CRUD functionality connected to RESTful APIs.</li>
@@ -53,7 +53,7 @@ export default function Experience() {
                 </div>
 
                 <div class="program">
-                    <h4>JavaScript Backend | July 2023 – December 2023</h4>
+                    <h4>JavaScript Backend | July 2023 - December 2023</h4>
                     <ul>
                         <li>Gained practical experience in building server-side applications using Node.js and Express.js.</li>
                         <li>Developed RESTful APIs and integrated them with front-end applications.</li>
@@ -64,7 +64,7 @@ export default function Experience() {
                 </div>
 
                 <div class="program">
-                    <h4>Advanced JavaScript | August 2022 – June 2023</h4>
+                    <h4>Advanced JavaScript | August 2022 - June 2023</h4>
                     <ul>
                         <li>Gained in-depth knowledge of advanced JavaScript concepts including closures, prototypes, and asynchronous programming.</li>
                         <li>Developed dynamic web applications using modern JavaScript frameworks and libraries.</li>
@@ -73,7 +73,7 @@ export default function Experience() {
                 </div>
 
                 <div class="program">
-                    <h4>JavaScript Basics | January 2022 – July 2022</h4>
+                    <h4>JavaScript Basics | January 2022 - July 2022</h4>
                     <ul>
                         <li>Learned the fundamentals of JavaScript programming including variables, data types, functions, and control structures.</li>
                         <li>Built simple web applications to practice DOM manipulation and event handling.</li>
@@ -82,6 +82,27 @@ export default function Experience() {
                     </ul>
                 </div>
             </article>
+
+            <article class="experience-item">
+                <h3>Senior Accountant | Coca Cola Hellenic BSO | June 2014 - March 2022</h3>
+
+                <div class="program">
+                    <h4>Accounts Receivable | January 2018 - March 2022</h4>
+                    <ul>
+                        <li>Monitor monthly reconciliations of the accounts to ensure accuracy and evaluate potential risk.</li>
+                        <li>Ensure achievement of customer service requirements and targets</li>
+                    </ul>
+                </div>
+
+                <div class="program">
+                    <h4>Credit Management | June 2014 - December 2017</h4>
+                    <ul>
+                        <li>Assess and analyze customer related statistics and data, review patterns and trends.</li>
+                        <li>Monitor for deviations from credit standards. Ensure all internal and compliance controls and regulations are met.</li>
+                    </ul>
+                </div>
+            </article>
+
         </section>
     );
 }
